@@ -1,0 +1,70 @@
+/* #todos{
+display: flex;
+   
+justify-content: center;
+border: 2px solid black;
+height: 700px;
+width: 500px;
+overflow: hidden;
+} */
+body{
+/* background: linear-gradient(purple,pink) fixed no-repeat; */
+background: linear-gradient(#BADFD7
+,#FDB7B9,#60BFC1) fixed no-repeat;
+
+}
+.complete{
+    margin: auto;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    background-color: #F7E3DB;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 7px solid #53aaac;
+    border-radius: 20px;
+    overflow: scroll;
+}
+ #todos{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.todo{
+    width: 200px;
+    background-color: #BADFD7;
+    color: rgb(3, 53, 87);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(71, 182, 216);
+    border-radius: 6px;
+    text-align: center;
+    align-content: center;
+    margin: 10px;
+    padding: 10px 5px;
+    font: bold;
+    
+}
+#Addbtn{
+
+    margin: 10px;
+    padding: 7px 7px;
+    background-color: #60BFC1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    background-color: #60BFC1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
